@@ -9,7 +9,7 @@ import java.time.format.DateTimeFormatter;
 /**
  * @author suchong
  * @create 2020/6/17  10:21
- * SpringBoot定时任务
+ * @Desc SpringBoot定时任务
  **/
 @Component
 public class BootSchedule {

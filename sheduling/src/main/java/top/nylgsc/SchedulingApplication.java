@@ -2,6 +2,7 @@ package top.nylgsc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
@@ -9,6 +10,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  * @create 2020/6/17  10:19
  **/
 
+@EnableAsync //开启异步支持
 @EnableScheduling //开启定时任务
 @SpringBootApplication
 public class SchedulingApplication {
