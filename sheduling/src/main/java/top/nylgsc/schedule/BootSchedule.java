@@ -11,7 +11,7 @@ import java.time.format.DateTimeFormatter;
  * @create 2020/6/17  10:21
  * @Desc SpringBoot定时任务
  **/
-@Component
+//@Component
 public class BootSchedule {
 
     private final DateTimeFormatter fmt=DateTimeFormatter.ofPattern("yyyy:MM:dd  HH:mm:ss");
