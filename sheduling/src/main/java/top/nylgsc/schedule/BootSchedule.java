@@ -34,7 +34,7 @@ public class BootSchedule {
         System.out.println(LocalDateTime.now().format(fmt));
     }
 
-    @Scheduled(cron = "*/3 * * * *?")
+    @Scheduled(cron = "*/3 * * * * ?")
     public void scheDule04(){
         System.out.println(LocalDateTime.now().format(fmt));
     }
