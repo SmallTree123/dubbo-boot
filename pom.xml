@@ -12,6 +12,7 @@
         <module>common-api</module>
         <module>provider</module>
         <module>consumer</module>
+        <module>sheduling</module>
     </modules>
 
     <parent>
